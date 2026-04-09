@@ -18,9 +18,9 @@ This repository contains OpenClaw skill directories.
 - Ability to log in to Craigslist in the controlled browser session (you may be asked to complete login/CAPTCHA).
 - Node.js available to run the bundled scripts.
 - The skill uses environment variables for defaults (optional, but recommended):
-  - `CRAIGSLIST_SITE` (example: `https://vancouver.craigslist.org/`)
-  - `CRAIGSLIST_AREA` (example: `burnaby/newwest`)
-  - `CRAIGSLIST_POSTAL_CODE` (example: `V3N1V1`)
+  - `CRAIGSLIST_SITE` (example: `https://<city>.craigslist.org/`)
+  - `CRAIGSLIST_AREA` (example: `<area-slug>`)
+  - `CRAIGSLIST_POSTAL_CODE` (example: `<postal-code>`)
 
 ### qr-to-link
 - Local QR decoding tool:
